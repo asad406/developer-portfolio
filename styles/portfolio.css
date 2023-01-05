@@ -22,6 +22,7 @@ nav{
     display: flex;
     justify-content: space-between;
     margin: 50px 200px;
+    padding-top: 50px;
 }
 .nav-title{
     font-size: 45px;
@@ -82,19 +83,40 @@ main{
     background: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px; 
+    text-align: center;
 }
 .section-title{
     font-weight: 700;
     font-size: 35px;
     color: #181818;
-    text-align: center;
+    
 }
 .section-description{
     font-weight: 400;
     font-size: 18px;
     color: #757575;
-    text-align: center;
+    
     margin-top: 30px;
     margin-bottom: 30px;
 
+}
+
+.about-info-container{
+    display: flex;
+    /* justify-items: center;
+    gap:50px ;  /*Both will work* */
+    justify-content: space-around;
+}
+.about-info{
+    
+}
+.into-title{
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+}
+.into-description{
+    font-weight: 700;
+    font-size: 20px;
+    color:#474747;
 }
