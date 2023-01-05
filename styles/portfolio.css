@@ -71,3 +71,30 @@ nav li{
     color: #757575;
     margin-bottom:30px ;
 }
+/* Main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* About me section styles */
+.about{
+    margin-top:130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px; 
+}
+.section-title{
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    text-align: center;
+}
+.section-description{
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
