@@ -39,6 +39,13 @@ nav li{
     margin-left: 50px;
 }
 
+/* banner background image */
+.header{
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+}
 /* banner styling  */
 
 .banner{
